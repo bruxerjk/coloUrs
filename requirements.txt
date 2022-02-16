@@ -1,4 +1,4 @@
-python==3.9.7
-matplotlib==3.4.3
-numpy==1.20.3
-colorcet==2.0.6
+python
+matplotlib
+numpy
+colorcet
