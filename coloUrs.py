@@ -1,8 +1,7 @@
 """
 coloUrs (with a u)!!!
 
-One day I realized 80% of my project time was spent devoted to finding the perfect
-colour scheme so that day I started this so I could spend 100% of my time on it
+Some hard-coded palettes I like as tuples of hex values
 
 @author: Jacob Bruxer
 """
