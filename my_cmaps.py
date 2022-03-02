@@ -83,15 +83,16 @@ def plot_color_gradients(category, cmap_list):
     for ax in axs:
         ax.set_axis_off()
 
-BlOr = my_diverging_cmap("mediumblue", "#d17a00", "Blue_Orange")
+BlOr = my_diverging_cmap("#d17a00", "mediumblue", "Blue_Orange")
 DryWet = my_combined_cmap("YlOrBr_r", "PuBu", "Dry_Wet")
+BadGood = my_combined_cmap("YlOrRd_r", "PuBuGn", "Bad_Good")
 Habs = my_diverging_cmap("#AB0722", "#001363", "Go Habs!!!")
 GoPu = my_diverging_cmap("gold", "darkviolet", "Gold_Purple")
 
 LAGear = GoPu
 LAGear.name = "LA Gear"
 
-mine = [BlOr, DryWet, Habs, LAGear]
+mine = [BlOr, DryWet, BadGood, Habs, LAGear]
 
 # tests...
 
